@@ -1,6 +1,6 @@
 ## Install
 
-#### install dependencies ( yarn / npm )
+#### Install dependencies ( yarn / npm )
 
 ```sh
 npm install
