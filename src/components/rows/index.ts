@@ -34,7 +34,7 @@ body{
         return html`
     <div class="content-grid">
     <!-- your component here -->
-      
+
         <h2>Size</h2>
         <div class="custom-row">
         <column-layout size="l">
@@ -43,6 +43,16 @@ body{
         </column-layout>
         <column-layout size="sm">
         </column-layout>
+
+        <h2>State</h2>
+        <div class="custom-row">
+        <column-layout size="l" bgcolor="row_color-gray">
+        </column-layout>
+        <column-layout size="l" bgcolor="row_color-gray">
+        </column-layout>
+        <column-layout size="l" bgcolor="row_color-gray">
+        </column-layout>
+
     </div>
   </div>
     `;

@@ -4,9 +4,11 @@ import { customElement } from 'lit/decorators.js';
 @customElement(`column-layout`)
 export class ColumnLayout extends LitElement {
     size="";
+    bgcolor="";
     static get properties() {
       return {
         size: {type: String},
+        bgcolor: {type: String},
       };
     }
     
@@ -26,6 +28,12 @@ export class ColumnLayout extends LitElement {
     --div-margin: 10px; 
     --white: hsl(0, 0%, 100%);
 }
+#row_color-blue {
+    background-color: var(--light-blue-bg);
+  }
+#row_color-gray {
+    background-color: var(--tertiary-bg);
+  }
 body{
     font-family: 'Cera Pro';
 }
@@ -51,9 +59,19 @@ h2{
   `;
 
     render() {
+
+        console.log(this.bgcolor)
+        switch (this.bgcolor) {
+            case "gray":
+              this.bgcolor = "row_color-gray"
+              break;
+          default:
+            break;
+        }
+
         return html`
     <!-- your component here -->
-        <div class="custom-column">
+        <div class="custom-column" id=${this.bgcolor}>
             <case-rating size=${this.size}></case-rating>
         </div>
         <span class="number-ratting"></span>
