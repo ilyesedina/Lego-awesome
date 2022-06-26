@@ -12,8 +12,6 @@ npm install
 npm run dev
 ```
 
-<br />
-
 ### License
 
 MIT © [The LEGO Group](https://github.com/Webbanditten/interview-case)
