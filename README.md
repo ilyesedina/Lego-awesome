@@ -1,3 +1,23 @@
+## Install
+
+#### install dependencies ( yarn / npm )
+
+```sh
+npm install
+```
+
+#### Run on development environment (Localhost)
+
+```sh
+npm run dev
+```
+
+<br />
+
+### License
+
+MIT © [The LEGO Group](https://github.com/Webbanditten/interview-case)
+
 # Case
 Imagine you're a contributor to a component library and you're being tasked with creating a new component. 
 The new component you're going to be creating is a star rating component and below is the designs you've gotten from your designer. 
@@ -27,4 +47,6 @@ The component must be accessible and work in the majority of browser; Edge, Chro
 * Domain knowledge of frontend web development
 * Analytical skills and a prioritized approach to delivering the best possible outcome.
 * Being able to work structured under time pressure
+
+
 
