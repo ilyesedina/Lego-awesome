@@ -27,6 +27,11 @@ body{
 .custom-row{
     background-color: var(--white);  
 }
+@media only screen and (max-width: 600px) {
+    .content-grid {
+        margin: 3px 10px;
+    }
+  }
 
   `;
 

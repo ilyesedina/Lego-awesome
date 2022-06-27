@@ -48,6 +48,13 @@ body{
 h2{
     margin: 10px 0px;
 }
+@media only screen and (max-width: 600px) {
+    .custom-column {
+        width: unset;
+        height: 110px;
+        display: block;
+    }
+  }
 /* .number-ratting{
     color: var(--text-color);
     position: absolute;
@@ -74,7 +81,6 @@ h2{
         <div class="custom-column" id=${this.bgcolor}>
             <case-rating size=${this.size}></case-rating>
         </div>
-        <span class="number-ratting"></span>
     `;
     }
 }

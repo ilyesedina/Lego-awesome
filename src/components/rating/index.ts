@@ -18,12 +18,37 @@ export class CaseRating extends LitElement {
   }
   .star_rating-s {
     font-size: 7px;
+    padding: 70px;
   }
   .star_rating-m {
     font-size: 9px;
+    padding: 70px;
   }
   .star_rating-l {
     font-size: 11px;
+    padding: 70px;
+  }
+  @media only screen and (max-width: 930px) {
+    .star_rating-s {
+      padding: 18px;
+    }
+    .star_rating-m {
+      padding: 18px;
+    }
+    .star_rating-l {
+      padding: 18px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .star_rating-s {
+      padding: 40px 50px 50px 120px;
+    }
+    .star_rating-m {
+      padding: 40px 50px 50px 120px;
+    }
+    .star_rating-l {
+      padding: 40px 50px 50px 120px;
+    }
   }
   #star_rating svg {
     width: 1em;
